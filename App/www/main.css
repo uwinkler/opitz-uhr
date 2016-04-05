@@ -1,0 +1,67 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.stunde {
+     font-size: 36px;
+     fill: #777;
+ }
+
+.minute {
+    font-size: 23px;
+    fill:#888;
+}
+
+
+.stunde-current {
+    font-size: 36px;
+    fill: #333;
+}
+
+.minute-current {
+    font-size: 23px;
+    fill:#333;
+}
+
+
+.tempHigh {
+    font-size: 50px;
+    fill:#333;
+}
+
+
+.Montag {
+    fill:red;
+}
+
+.Dienstag {
+    fill:blue;
+}
+
+.Mittwoch {
+    fill:gray;
+}
+
+.Donnerstag {
+    fill:green;
+}
+
+.Freitag {
+    fill:yellow;
+}
+
+.Sammstag {
+    fill:orange;
+}
+
+.Sonntag {
+    fill:orange;
+}
+
+
+.datum {
+    font-size: 50px;
+    /*font-style:italic;*/
+    fill:#333;
+}

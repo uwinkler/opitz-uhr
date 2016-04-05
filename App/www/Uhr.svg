@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1025px" height="769px" viewBox="0 0 1025 769" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>Uhr</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0.429" y="0.362" width="1023.7143" height="768"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="5" in="SourceAlpha" operator="dilate" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.135232677 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Background">
+            <use fill="none" xlink:href="#path-1"></use>
+            <use fill="#DCDAFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+        </g>
+        <path d="M636.5,633 C773.190476,633 884,522.190476 884,385.5 C884,248.809524 773.190476,138 636.5,138 C499.809524,138 389,248.809524 389,385.5 C389,522.190476 499.809524,633 636.5,633 Z" id="ClockFace" stroke="#4990E2" fill="#FFFFFF" filter="url(#filter-2)"></path>
+        <path d="M621.994845,219.863296 L621.994845,219.863296 C621.994845,212.76224 628.304265,207 636.074742,207 C643.852969,207 650.154639,212.758005 650.154639,219.863296 L650.154639,380.211447 C650.154639,387.312502 643.84522,393.074742 636.074742,393.074742 C628.296516,393.074742 621.994845,387.316738 621.994845,380.211447 L621.994845,219.863296 Z" id="KleinerZeiger" fill="#F6A623"></path>
+        <path d="M622.262887,265.209895 L622.262887,265.209895 C622.262887,257.433449 628.572613,251.123711 636.342784,251.123711 C644.121087,251.123711 650.42268,257.427529 650.42268,265.209895 L650.42268,377.913816 C650.42268,385.690262 644.112954,392 636.342784,392 C628.56448,392 622.262887,385.696182 622.262887,377.913816 L622.262887,265.209895 Z" id="GrosserZeiger" fill="#4990E2"></path>
+    </g>
+</svg>

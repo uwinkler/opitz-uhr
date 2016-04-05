@@ -1,0 +1,23 @@
+{
+  "name": "src",
+  "authors": [
+    "uwinkler <uwinkler@kodira.de>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Snap.svg": "snap.svg#~0.4.1",
+    "jquery": "~2.2.2",
+    "moment": "~2.12.0"
+  }
+}
