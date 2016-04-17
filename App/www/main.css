@@ -65,3 +65,23 @@ body {
     /*font-style:italic;*/
     fill:#333;
 }
+
+.facetime-btn {
+    position: fixed;
+    bottom: 20px;
+    right:20px;
+}
+
+.facetime-btn img {
+    width: 60px;
+    height:60px;
+    border-radius: 30px;
+    border:2px solid whitesmoke;
+    box-shadow:0 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.facetime-btn img:active {
+    box-shadow:none;
+    -webkit-transform: scale(0.95,0.95) ;
+    transform:scale(0.9,0.9) ;
+}
