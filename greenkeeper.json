@@ -1,0 +1,10 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "App/plugins/cordova-plugin-whitelist/package.json",
+        "package.json"
+      ]
+    }
+  }
+}
